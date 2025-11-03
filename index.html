@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navbar Élégance</title>
+  <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav>
+    <div class="nav-left" id="nav-on">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+       
+          <select name="pets" id="pet-select">
+  <option value="aa">evenement</option>
+  <option value="Mariage">Mariage</option>
+  <option value="Anniversaire">Anniversaire</option>
+  <option value="Soirée privée">Soirée privée</option>
+  
+</select>
+
+       
+      </ul>
+    </div>
+
+    <div class="logo">Élégance</div>
+
+    <div class="nav-right">
+      <ul>
+        <li><a href="galerie.html">Galerie</a></li>
+        
+        <li><a href="contacte.html">Contact</a></li>
+      </ul>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Accueil</a>
+    <a href="#">À propos</a>
+    <div class="dropdown" id="mobileDropdown">
+
+         <select name="pets" id="pet-select">
+ <a href="index.html"><option value="aa">evenement</option></a>
+  <option value="Mariage">Mariage</option>
+  <option value="Anniversaire">Anniversaire</option>
+  <option value="Soirée privée">Soirée privée</option>
+  
+</select>
+    </div>
+    <a href="galerie.html">Galerie</a>
+    <a href="#">Location & Showroom</a>
+    <a href="#">Contact</a>
+  </div>
+
+
+  <!-- section 2 -->
+    <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Vivez l’émotion de moments inoubliables</h1>
+      <p>
+        Chez <strong>Élégance</strong>, nous transformons vos rêves en expériences magiques.  
+        Mariages, anniversaires ou événements d’entreprise — laissez-nous créer une atmosphère qui émerveille vos invités.
+      </p>
+      <div class="buttons">
+        <a href="galerie.html" class="btn btn-primary">Voir nos événements</a>
+        <a href="#services" class="btn btn-secondary">Découvrir nos services</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section3 -->
+
+<section class="about-section" id="about">
+  <div class="about-content">
+    <div class="text">
+      <h2>Un accompagnement sans stress pour vos événements</h2>
+      <p>
+        Chez <strong>Élégance</strong>, nous croyons que chaque instant mérite d’être vécu pleinement, sans souci d’organisation.  
+        Notre équipe passionnée vous accompagne dans la planification, la décoration et la coordination de vos événements — du mariage féérique à la soirée privée intimiste.  
+        Grâce à des méthodes modernes, une créativité sans limite et une gestion rigoureuse, nous transformons vos envies en expériences parfaites.
+      </p>
+      <a href="info.html" class="btn btn-primary">En savoir plus</a>
+    </div>
+
+    <div class="images">
+        <div class="img-card">
+          <img src="aniversaire.jpg" alt="Anniversaire" class="zoom-img" />
+          <p>Anniversaire</p>
+        </div>
+        <div class="img-card">
+          <img src="wedding.jpg" alt="Mariage" class="zoom-img" />
+          <p>Mariage</p>
+        </div>
+        <div class="img-card">
+          <img src="soire.jpg" alt="Soirée privée" class="zoom-img" />
+          <p>Soirée privée</p>
+        </div>
+      </div>
+
+
+  </div>
+</section>
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Agrandissement de l'image">
+    <button class="close-btn" id="closeBtn" aria-label="Fermer la fenêtre">✕</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="Agrandissement" />
+  </div>
+
+  <!--  section 4 for services  -->
+
+  <section class="services" id="services">
+  <h2 class="section-title">Nos Services</h2>
+  <p class="section-subtitle">Découvrez les types d'événements que nous organisons avec élégance et passion.</p>
+
+  <div class="services-grid">
+    <div class="service-card">
+      <img src="mariage de reve.jpg" alt="Mariage de rêve">
+      <div class="service-info">
+        <h3>Mariage de rêve</h3>
+        <p>Une célébration féérique, pensée dans les moindres détails pour créer des souvenirs inoubliables.</p>
+        <a href="#" class="btn-more">En savoir plus <span>→</span></a>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="ani2.jpg" alt="Anniversaire festif">
+      <div class="service-info">
+        <h3>Anniversaire festif</h3>
+        <p>Offrez une fête unique et pleine d’émotions, parfaitement adaptée à vos envies et à votre âge.</p>
+        <a href="#" class="btn-more">En savoir plus <span>→</span></a>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="evenement entreprise.jpg" alt="Événement d’entreprise">
+      <div class="service-info">
+        <h3>Événement d’entreprise</h3>
+        <p>Renforcez l’esprit d’équipe et votre image de marque avec une organisation professionnelle clé en main.</p>
+        <a href="#" class="btn-more">En savoir plus <span>→</span></a>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="soiree pro.jpg" alt="Soirée privée">
+      <div class="service-info">
+        <h3>Soirée privée</h3>
+        <p>Ambiance chic et raffinée, que ce soit entre amis ou en famille, pour une soirée mémorable.</p>
+        <a href="#" class="btn-more">En savoir plus <span>→</span></a>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="spectacle.jpg" alt="Concert et spectacle">
+      <div class="service-info">
+        <h3>Concert & Spectacle</h3>
+        <p>Des événements artistiques pleins de vie, parfaitement orchestrés pour un public émerveillé.</p>
+        <a href="#" class="btn-more">En savoir plus <span>→</span></a>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="gala.jpg" alt="Soirée de gala">
+      <div class="service-info">
+        <h3>Soirée de gala</h3>
+        <p>Élégance et prestige : des décors somptueux et une coordination parfaite pour vos grands événements.</p>
+        <a href="#" class="btn-more">En savoir plus <span>→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- sec 4 -->
+ <section class="testimonials" id="temoignages">
+  <h2 class="section-title">Ce que disent nos clients</h2>
+  <p class="section-subtitle">Ils nous ont fait confiance pour leurs moments les plus précieux.</p>
+
+  <div class="testimonials-container">
+    <div class="testimonial-card">
+      <p class="testimonial-text">
+        “Une équipe exceptionnelle ! Mon mariage a été encore plus beau que je l’imaginais. 
+        Tout était organisé à la perfection, sans stress et avec beaucoup d’élégance.”
+      </p>
+      <div class="client-info">
+        <!-- <img src="client1.jpg" alt="Client 1"> -->
+        <div>
+          <h4>Sarah & Karim</h4>
+          <span>Mariage à Casablanca</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <p class="testimonial-text">
+        “Un anniversaire inoubliable pour ma fille ! Décoration magnifique, ambiance magique,
+        et une équipe à l’écoute de chaque détail.”
+      </p>
+      <div class="client-info">
+        <!-- <img src="client2.jpg" alt="Client 2"> -->
+        <div>
+          <h4>Leïla B.</h4>
+          <span>Anniversaire privé</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <p class="testimonial-text">
+        “Nous avons organisé notre gala d’entreprise avec Élégance, et ce fut un vrai succès.
+        Tout le monde a salué la qualité et la classe de l’événement.”
+      </p>
+      <div class="client-info">
+        <!-- <img src="client3.jpg" alt="Client 3"> -->
+        <div>
+          <h4>Reda M.</h4>
+          <span>Gala professionnel</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+ <footer class="footer">
+  <div class="footer-container">
+    
+    <!-- À propos -->
+    <div class="footer-column">
+      <h3>Élégance</h3>
+      <p>Nous créons des événements inoubliables avec passion et professionnalisme. Votre satisfaction est notre priorité.</p>
+    </div>
+
+    <!-- Navigation -->
+    <div class="footer-column">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#temoignages">Témoignages</a></li>
+        <li><a href="#ambiance">Ambiance</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Services -->
+    <div class="footer-column">
+      <h4>Nos services</h4>
+      <ul>
+        <li><a href="#">Mariage</a></li>
+        <li><a href="#">Anniversaire</a></li>
+        <li><a href="#">Soirée privée</a></li>
+        <li><a href="#">Gala & Événements</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact & Réseaux -->
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>Email : contact@elegance.com</p>
+      <p>Téléphone : +212 612118749</p>
+     
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Élégance. Tous droits réservés.</p>
+  </div>
+</footer>
+ <div class="logo1">
+     <a href="https://wa.me/212612118749" class="whatsapp-btn" target="_blank" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+ </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

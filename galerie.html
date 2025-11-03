@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galerie | Élégance Événements</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <nav>
+    <div class="nav-left" id="nav-on">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+       
+          <select name="pets" id="pet-select">
+  <option value="aa">evenement</option>
+  <option value="Mariage">Mariage</option>
+  <option value="Anniversaire">Anniversaire</option>
+  <option value="Soirée privée">Soirée privée</option>
+  
+</select>
+
+       
+      </ul>
+    </div>
+
+    <div class="logo">Élégance</div>
+
+    <div class="nav-right">
+      <ul>
+        <li><a href="galerie.html">Galerie</a></li>
+       
+        <li><a href="contacte.html">Contact</a></li>
+      </ul>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Accueil</a>
+    <a href="#">À propos</a>
+    <div class="dropdown" id="mobileDropdown">
+
+         <select name="pets" id="pet-select">
+ <a href="index.html"><option value="aa">evenement</option></a>
+  <option value="Mariage">Mariage</option>
+  <option value="Anniversaire">Anniversaire</option>
+  <option value="Soirée privée">Soirée privée</option>
+  
+</select>
+    </div>
+    <a href="galerie.html">Galerie</a>
+    <a href="#">Location & Showroom</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- ======= HEADER ======= -->
+  <header class="galerie-header">
+    <div class="overlay-header">
+      <h1>Nos Réalisations d’Exception</h1>
+      <p>Découvrez des moments inoubliables capturés lors de nos événements les plus magiques.</p>
+    </div>
+  </header>
+
+
+  <!-- ======= GALERIE ======= -->
+  <section class="galerie">
+    <div class="galerie-item" data-category="mariage">
+      <img src="https://i.pinimg.com/1200x/eb/73/1d/eb731d7fe1437bbba6fe4babb188330e.jpg" alt="Mariage élégant" />
+      <div class="galerie-overlay">
+        <h3>Mariage Élégant</h3>
+        <p>Un décor romantique et raffiné.</p>
+      </div>
+    </div>
+
+    <div class="galerie-item" data-category="anniversaire">
+      <img src="https://i.pinimg.com/736x/de/e8/46/dee846490a3db1071950f0c3ffd00816.jpg" alt="Anniversaire coloré" />
+      <div class="galerie-overlay">
+        <h3>Anniversaire Magique</h3>
+        <p>Des sourires et des souvenirs inoubliables.</p>
+      </div>
+    </div>
+
+    <div class="galerie-item" data-category="soiree">
+      <img src="https://i.pinimg.com/736x/50/83/9e/50839e099c96fb5800b1afc6bfe320df.jpg" alt="Soirée chic" />
+      <div class="galerie-overlay">
+        <h3>Soirée Privée</h3>
+        <p>Ambiance chic et conviviale.</p>
+      </div>
+    </div>
+
+    <div class="galerie-item" data-category="entreprise">
+      <img src="https://i.pinimg.com/1200x/a7/c6/08/a7c608625c095cc8ffbf28d373f05958.jpg" alt="Événement pro" />
+      <div class="galerie-overlay">
+        <h3>Événement d’Entreprise</h3>
+        <p>Des rencontres professionnelles inoubliables.</p>
+      </div>
+    </div>
+
+    <div class="galerie-item" data-category="mariage">
+      <img src="https://i.pinimg.com/736x/0d/a3/6b/0da36bf21a57e40419b13be071bd7ef7.jpg" alt="Mariage de luxe" />
+      <div class="galerie-overlay">
+        <h3>Mariage Royal</h3>
+        <p>Une ambiance féérique et sophistiquée.</p>
+      </div>
+    </div>
+
+    <div class="galerie-item" data-category="soiree">
+      <img src="https://i.pinimg.com/736x/6e/f4/29/6ef429e6bb3749e7b884fd13925611a5.jpg" alt="Fête de nuit" />
+      <div class="galerie-overlay">
+        <h3>Soirée Glamour</h3>
+        <p>Des lumières, de la musique et du style.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= LIGHTBOX ======= -->
+  <div class="lightbox">
+    <span class="close">&times;</span>
+    <img src="" alt="" class="lightbox-img" />
+  </div>
+   <!-- footer -->
+ <footer class="footer">
+  <div class="footer-container">
+    
+    <!-- À propos -->
+    <div class="footer-column">
+      <h3>Élégance</h3>
+      <p>Nous créons des événements inoubliables avec passion et professionnalisme. Votre satisfaction est notre priorité.</p>
+    </div>
+
+    <!-- Navigation -->
+    <div class="footer-column">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#temoignages">Témoignages</a></li>
+        <li><a href="#ambiance">Ambiance</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Services -->
+    <div class="footer-column">
+      <h4>Nos services</h4>
+      <ul>
+        <li><a href="#">Mariage</a></li>
+        <li><a href="#">Anniversaire</a></li>
+        <li><a href="#">Soirée privée</a></li>
+        <li><a href="#">Gala & Événements</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact & Réseaux -->
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>Email : contact@elegance.com</p>
+      <p>Téléphone : +212 612118749</p>
+      
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Élégance. Tous droits réservés.</p>
+  </div>
+</footer>
+ <div class="logo1">
+     <a href="https://wa.me/212612118749" class="whatsapp-btn" target="_blank" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+ </div>
+  <script src="script.js"></script>
+</body>
+</html>

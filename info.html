@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Notre Processus — Élégance (Accompagnement sans stress)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <div class="nav-left" id="nav-on">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+       
+          <select name="pets" id="pet-select">
+  <option value="aa">evenement</option>
+  <option value="Mariage">Mariage</option>
+  <option value="Anniversaire">Anniversaire</option>
+  <option value="Soirée privée">Soirée privée</option>
+  
+</select>
+
+       
+      </ul>
+    </div>
+
+    <div class="logo">Élégance</div>
+
+    <div class="nav-right">
+      <ul>
+        <li><a href="galerie.html">Galerie</a></li>
+       
+        <li><a href="contacte.html">Contact</a></li>
+      </ul>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Accueil</a>
+    <a href="#">À propos</a>
+    <div class="dropdown" id="mobileDropdown">
+
+         <select name="pets" id="pet-select">
+ <a href="index.html"><option value="aa">evenement</option></a>
+  <option value="Mariage">Mariage</option>
+  <option value="Anniversaire">Anniversaire</option>
+  <option value="Soirée privée">Soirée privée</option>
+  
+</select>
+    </div>
+    <a href="galerie.html">Galerie</a>
+    <a href="#">Location & Showroom</a>
+    <a href="#">Contact</a>
+  </div>
+  <header class="site-header">
+    <div class="container">
+      <h1>Comment nous créons des événements sans stress</h1>
+      <p class="lead">
+        De la première idée au lendemain de l’événement, découvrez chaque étape de notre accompagnement professionnel et humain.
+      </p>
+      <a class="cta-btn" href="#contact">Demandez un rendez-vous</a>
+    </div>
+  </header>
+
+  <main class="container main">
+    <!-- Intro / résumé -->
+    <section class="intro">
+      <h2>Notre approche en 10 étapes</h2>
+      <p>
+        Nous avons structuré notre méthode pour anticiper les imprévus, fluidifier les échanges et vous permettre de profiter de l’instant.
+        Chaque étape est conçue pour vous apporter sérénité, transparence et excellence opérationnelle.
+      </p>
+    </section>
+
+    <!-- Timeline / étapes -->
+    <section class="timeline" aria-label="Étapes d'accompagnement">
+      <!-- Timeline item repeated -->
+      <article class="step" id="step-1">
+        <div class="step-marker">1</div>
+        <div class="step-body">
+          <h3 class="step-title">Consultation initiale — Écoute & objectifs</h3>
+          <p class="step-summary">Rendez-vous gratuit pour comprendre vos envies, contraintes et budget.</p>
+
+          <!-- <button class="toggle-detail" aria-expanded="false" aria-controls="detail-1">Voir le détail</button> -->
+
+          <div class="step-detail" id="detail-1" hidden>
+            <ul>
+              <li>Entretien (en ligne ou en personne) : objectifs, nombre d’invités, style.</li>
+              <li>Recueil des contraintes (date, lieu, accessibilité, budget).</li>
+              <li>Proposition d’un brief de travail et premières idées visuelles.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="step" id="step-2">
+        <div class="step-marker">2</div>
+        <div class="step-body">
+          <h3 class="step-title">Conception & proposition créative</h3>
+          <p class="step-summary">Moodboard, palette, plan d’aménagement et proposition tarifaire claire.</p>
+
+          <!-- <button class="toggle-detail" aria-expanded="false" aria-controls="detail-2">Voir le détail</button> -->
+
+          <div class="step-detail" id="detail-2" hidden>
+            <ul>
+              <li>Création de moodboards (couleurs, éclairages, textures).</li>
+              <li>Plan 2D / 3D de la scénographie et disposition des espaces.</li>
+              <li>Proposition d’animations et suggestion de prestataires (traiteur, musique).</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="step" id="step-3">
+        <div class="step-marker">3</div>
+        <div class="step-body">
+          <h3 class="step-title">Devis détaillé & contrat</h3>
+          <p class="step-summary">Transparence totale : devis poste par poste, conditions et calendrier.</p>
+
+          <!-- <button class="toggle-detail" aria-expanded="false" aria-controls="detail-3">Voir le détail</button> -->
+
+          <div class="step-detail" id="detail-3" hidden>
+            <ul>
+              <li>Devis clair, sans frais cachés, options présentées séparément.</li>
+              <li>Conditions de paiement, délais et clauses (assurance, annulation).</li>
+              <li>Signature numérique du contrat et planning de versements si nécessaire.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="step" id="step-4">
+        <div class="step-marker">4</div>
+        <div class="step-body">
+          <h3 class="step-title">Planification détaillée & calendrier</h3>
+          <p class="step-summary">Feuille de route horaire et checklist partagée.</p>
+
+          <!-- <button class="toggle-detail" aria-expanded="false" aria-controls="detail-4">Voir le détail</button> -->
+
+          <div class="step-detail" id="detail-4" hidden>
+            <ul>
+              <li>Plan horaire (du montage au démontage).</li>
+              <li>Checklists pour chaque prestataire et point de contact (référent logistique).</li>
+              <li>Partage d’un agenda collaboratif (Google/Drive) pour suivre les tâches.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="step" id="step-5">
+        <div class="step-marker">5</div>
+        <div class="step-body">
+          <h3 class="step-title">Sélection & coordination des prestataires</h3>
+          <p class="step-summary">Nous sélectionnons des partenaires fiables et négocions pour vous.</p>
+
+          <!-- <button class="toggle-detail" aria-expanded="false" aria-controls="detail-5">Voir le détail</button> -->
+
+          <div class="step-detail" id="detail-5" hidden>
+            <ul>
+              <li>Sourcing : traiteurs, photographes, DJ, location mobilier, fleuristes.</li>
+              <li>Négociation des tarifs et vérification des assurances / références.</li>
+              <li>Coordination contractuelle et calendrier de livraisons.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="step" id="step-6">
+        <div class="step-marker">6</div>
+        <div class="step-body">
+          <h3 class="step-title">Design, décoration & scénographie</h3>
+          <p class="step-summary">Création d’un univers cohérent et sur-mesure pour votre événement.</p>
+
+          <!-- <button class="toggle-detail" aria-expanded="false" aria-controls="detail-6">Voir le détail</button> -->
+
+          <div class="step-detail" id="detail-6" hidden>
+            <ul>
+              <li>Conception florale, choix textiles et luminaires.</li>
+              <li>Prototypage et tests (échantillons, maquettes).</li>
+              <li>Plan de montage et fiches techniques pour l’équipe sur place.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="step" id="step-7">
+        <div class="step-marker">7</div>
+        <div class="step-body">
+          <h3 class="step-title">Logistique & essais techniques</h3>
+          <p class="step-summary">Réglages techniques et répétitions pour éviter les surprises.</p>
+
+          <!-- <button class="toggle-detail" aria-expanded="false" aria-controls="detail-7">Voir le détail</button> -->
+
+          <div class="step-detail" id="detail-7" hidden>
+            <ul>
+              <li>Tests son, éclairage, vidéo et connectivité.</li>
+              <li>Répétitions générales si besoin (présentateurs, artistes).</li>
+              <li>Plan de secours (météo, panne, plan B).</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="step" id="step-8">
+        <div class="step-marker">8</div>
+        <div class="step-body">
+          <h3 class="step-title">Jour J — Coordination & exécution</h3>
+          <p class="step-summary">Notre équipe gère les opérations pour que vous profitiez pleinement.</p>
+
+          <!-- <button class="toggle-detail" aria-expanded="false" aria-controls="detail-8">Voir le détail</button> -->
+
+          <div class="step-detail" id="detail-8" hidden>
+            <ul>
+              <li>Supervision du montage, vérification des détails, accueil des prestataires.</li>
+              <li>Pilotage en temps réel : réajustements et prise de décision rapide.</li>
+              <li>Gestion des imprévus sans vous déranger.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="step" id="step-9">
+        <div class="step-marker">9</div>
+        <div class="step-body">
+          <h3 class="step-title">Démontage & remise en état</h3>
+          <p class="step-summary">Démontage propre et restitution du lieu selon les règles.</p>
+
+          <!-- <button class="toggle-detail" aria-expanded="false" aria-controls="detail-9">Voir le détail</button> -->
+
+          <div class="step-detail" id="detail-9" hidden>
+            <ul>
+              <li>Coordination du démontage avec les prestataires.</li>
+              <li>Contrôle de l’état du lieu et gestion des retours de matériel.</li>
+              <li>Réception des factures finales et reporting financier.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="step" id="step-10">
+        <div class="step-marker">10</div>
+        <div class="step-body">
+          <h3 class="step-title">Debrief & suivi post-événement</h3>
+          <p class="step-summary">Retour d’expérience, bilan et conservation des souvenirs.</p>
+
+          <!-- <button class="toggle-detail" aria-expanded="false" aria-controls="detail-10">Voir le détail</button> -->
+
+          <div class="step-detail" id="detail-10" hidden>
+            <ul>
+              <li>Envoi d’un rapport complet & des photos/vidéos.</li>
+              <li>Feedback client et amélioration continue.</li>
+              <li>Options de stockage et réutilisation (fournisseurs, designs).</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Extras / services complémentaires -->
+    <aside class="extras">
+      <h3>Services complémentaires</h3>
+      <ul>
+        <li>Production audiovisuelle professionnelle</li>
+        <li>Assistance VIP / concierge</li>
+        <li>Gestion d’hébergement & transferts</li>
+        <li>Options écologiques & zéro-déchet</li>
+      </ul>
+      <a class="secondary-cta" href="#contact">Parlez à un expert</a>
+    </aside>
+
+    <!-- Contact rapide -->
+    <section id="contact" class="contact-compact">
+      <h3>Prêt à commencer ?</h3>
+      <p>Contactez-nous pour un rendez-vous gratuit et un premier échange sans engagement.</p>
+      <div class="contact-actions">
+        <a href="mailto:contact@elegance.com" class="contact-btn">Email</a>
+        <a href="tel:+212600000000" class="contact-btn">Appeler</a>
+        <a href="https://wa.me/212600000000" target="_blank" rel="noopener" class="contact-btn whatsapp">WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+    <!-- footer -->
+ <footer class="footer">
+  <div class="footer-container">
+    
+    <!-- À propos -->
+    <div class="footer-column">
+      <h3>Élégance</h3>
+      <p>Nous créons des événements inoubliables avec passion et professionnalisme. Votre satisfaction est notre priorité.</p>
+    </div>
+
+    <!-- Navigation -->
+    <div class="footer-column">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#temoignages">Témoignages</a></li>
+        <li><a href="#ambiance">Ambiance</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Services -->
+    <div class="footer-column">
+      <h4>Nos services</h4>
+      <ul>
+        <li><a href="#">Mariage</a></li>
+        <li><a href="#">Anniversaire</a></li>
+        <li><a href="#">Soirée privée</a></li>
+        <li><a href="#">Gala & Événements</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact & Réseaux -->
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>Email : contact@elegance.com</p>
+      <p>Téléphone : +212 612118749</p>
+    
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Élégance. Tous droits réservés.</p>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
